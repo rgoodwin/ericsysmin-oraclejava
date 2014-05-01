@@ -1,27 +1,35 @@
 {
-  "author": "Eric Anderson",
-  "checksums": {
-    "Modulefile": "2e37ffea15b1367dfae0c1801166b851",
-    "manifests/repository.pp": "05daf400b6499fbf0c9ccbb5fb00f3c4",
-    "manifests/init.pp": "d7a62169d93bd7e368c7b7f1de1a0f13",
-    "manifests/install.pp": "bd044fb2bb5e7c07f40487d6c97ac255",
-    "manifests/params.pp": "50761e6411a1d6e20a12aeea9866b421",
-    "templates/java.preseed.erb": "6a0fdb6b47ac97c4879820191257cce6",
-    "tests/init.pp": "4d560320b8b37913378ad7e5d9cb8a76",
-    "README.md": "34607482d7bd0ca3b254355ba2e501b9"
-  },
-  "dependencies": [
+  "requirements": [
     {
-      "name": "puppetlabs/apt",
-      "version_requirement": "\u003e\u003d 1.4.2"
+      "name": "pe",
+      "version_requirement": "3.2.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
     }
   ],
-  "description": "This module installs Oracle Java on Ubuntu and Debian systems.",
-  "license": "",
   "name": "ericsysmin-oraclejava",
-  "project_page": "",
-  "source": "",
-  "summary": "Oracle Java Puppet Module",
-  "types": [],
-  "version": "0.1.2"
+  "version": "0.1.4",
+  "summary": "Oracle Java Installer",
+  "author": "Eric Anderson",
+  "description": "This module installs Oracle Java on Ubuntu and Debian systems.",
+  "dependencies": [
+    {
+        "name": "puppetlabs/apt",
+        "version_requirement": ">= 1.4.2"
+    }
+  ],
+  "source": "https://github.com/ericsysmin/ericsysmin-oraclejava",
+  "project_page": "https://github.com/ericsysmin/ericsysmin-oraclejava",
+  "license": "Apache Version 2.0",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "10.04",
+        "12.04"
+      ]
+    }
+  ]
 }

@@ -10,7 +10,7 @@
     }
   ],
   "name": "ericsysmin-oraclejava",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "summary": "Oracle Java Installer",
   "author": "Eric Anderson",
   "description": "This module installs Oracle Java on Ubuntu and Debian systems.",

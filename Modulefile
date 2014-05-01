@@ -1,5 +1,5 @@
 name 'ericsysmin-oraclejava'
-version '0.1.4'
+version '0.1.5'
 source 'https://github.com/ericsysmin/ericsysmin-oraclejava'
 author 'Eric Anderson'
 license 'Apache Version 2.0'
